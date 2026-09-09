@@ -8,3 +8,11 @@ p, li { font-size: 17px; }
 nav { display: flex; gap: 16px; font-size: 15px; margin-bottom: 40px; }
 a { color: #0a84ff; text-decoration: none; } a:hover { text-decoration: underline; }
 footer { color: #8e8e93; font-size: 13px; margin-top: 56px; }
+.callout { background: #f5f5f7; border-left: 3px solid #1c1c1e; padding: 14px 18px; margin: 24px 0; border-radius: 0 8px 8px 0; }
+.callout p { margin: 0; }
+.callout p + p { margin-top: 10px; }
+h3 { font-size: 17px; margin: 24px 0 6px; }
+ol { padding-left: 22px; } ol li { margin-bottom: 6px; }
+ul li { margin-bottom: 6px; }
+.section { color: #8e8e93; font-weight: 400; }
+address { font-style: normal; color: #1c1c1e; }
